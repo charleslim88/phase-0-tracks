@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<title>My Awesome Form Page</title>
+</head>
+
+<body>
+<h3>Golf Survey</h3>
+
+<form name="Golf Survey" action="succes.html" method="post">
+<fieldset>
+	<div>
+		<label>First Name:</label>
+		<input type="text" name="first name">
+	</div>
+	<div>
+		<label>Last Name:</label>
+		<input type="text" name="last name">
+	</div>
+	<div>
+		<label>Email:</label>
+		<input type="email" name="email">
+	</div>
+	<div>
+		<label>Phone Number (optional)</label>
+		<input type="number" name="number">
+	</div>
+	
+	</fieldset>
+
+	<fieldset>
+		<div>
+			<label>Favorite Golfer</label>
+			<input type="text" name="name of fav golfer">
+		</div>
+		<div>
+			<label>How Often Do You Golf?</label>
+			<select name="frequency">
+			<option value="Once a Week">Once a Week</option>
+			<option value="Once a Month">Once a Month</option>
+			<option value="Whenever I Get The Chance">Whenever I Get The Chance</option>
+			</select>
+		</div>
+
+		<div>
+			<textarea class="noscrollbars" onkeyup="autoGrow(this);">Comments</textarea>
+		</div>
+
+		<div>
+			<button type="submit">Submit</button>
+		</div>
+
+
+	</fieldset>
+	
+
+</form>
+
+</body>
+
+
+
+</html>
