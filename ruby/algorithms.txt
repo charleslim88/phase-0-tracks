@@ -1,0 +1,18 @@
+Elevator Directions for a Robot
+
+-Wait for the elevator door to open:
+	-Until you hear a bell or until the door opens:
+		-Wait patiently
+	-If elevator door does not open:
+		-Then press the up or down button again
+	-If elevator door opens
+		-Then walk inside
+-Decide which floor you want to go to:
+	-When you figure it out
+		-Then press the lighted number that corresponds to the floor you want to go
+			-Wait for the elevator to reach the desired floor:
+				-Then walk out when door opens
+	- If elevator door opens on the wrong floor:
+		-Then stay inside the elevator and press the desired floor number again
+	-If elevator door opens on the correct floor:
+		-Then walk outside of the elevator
