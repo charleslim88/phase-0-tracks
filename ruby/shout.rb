@@ -1,8 +1,13 @@
 module Shout
+
 	def yell_angrily(words)
-		puts "#{words}!"
+	  words + "!!" + ":("
 	end
-end	
+
+	def yell_happily(words)
+	  words + "!!" + ":)"
+	end
+end
 
 
 class Babies
@@ -14,7 +19,8 @@ class Dogs
 end
 
 
-babies = Babies.new
-babies.yell_angrily("WAHHHH")
-humans = Dogs.new
-humans.yell_angrily("RUFF")
+Barbie = Babies.new
+Cudi = Dogs.new
+
+puts Barbie.yell_angrily("Wahhhh")
+puts Cudi.yell_happily("Ruffff")
