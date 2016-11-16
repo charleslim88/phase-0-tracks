@@ -4,8 +4,7 @@
 # We spent [#] hours on this challenge.
 
 # EXPLANATION OF require_relative
-#Allows you to load a file that you have created into the present file.
-#
+
 require_relative 'state_data'
 
 class VirusPredictor
@@ -68,16 +67,6 @@ end
 
 # DRIVER CODE
  # initialize VirusPredictor for each state
-
- def gen_virus_predictor(states)
-    states.each do |state|
-      predictor = VirusPredictor.new(state, STATE_DATA[state][:population_density], STATE_DATA[state][:population])
-      predictor.virus_effects
-    end
-  end
-
-  states = STATE_DATA.keys
-  gen_virus_predictor(states)
 
 
 
